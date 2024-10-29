@@ -8,6 +8,10 @@ import Link from "next/link";
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const isIndex = router.pathname === '/';
+  const isHome = router.pathname === '/home'
+  if (isIndex) {
+    return <Component {...pageProps} />;
+  }
   return <>
     <div className={styles.header_col}>
       <div className={styles.header}>
@@ -15,7 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <h2 className={styles.subheader}>Films</h2>
       </div>
     </div>
-    {!isIndex && <nav className={styles.nav}>
+    {!isHome && !isIndex && <nav className={styles.nav}>
       <Link href="/home">home</Link>
       <Link href="/about">about</Link>
       <Link href="/films">films</Link>
