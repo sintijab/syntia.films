@@ -4,6 +4,6 @@ export default function Home() {
   return  <div className={styles.action}>
   <div className={styles.overlay} />
   <a href="./home" className={styles.action_btn}>Watch Syntia&apos;s films</a>
-    <iframe src="https://www.youtube.com/embed/embed/videoseries?si=PLH1CMiwwuKh1tNoxTm7cV-8fCbE8Y18bU&amp;list=PLH1CMiwwuKh1tNoxTm7cV-8fCbE8Y18bU&loop=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1&hd=1&rel=0" allow="autoplay" allowFullScreen={true} title="YouTube video player"></iframe>
+    <iframe src="https://www.youtube.com/embed/videoseries?si=PLH1CMiwwuKh1tNoxTm7cV-8fCbE8Y18bU&amp;list=PLH1CMiwwuKh1tNoxTm7cV-8fCbE8Y18bU&loop=1&autohide=1&mute=1&showinfo=0&controls=0&autoplay=1&hd=1&rel=0&vq=hd1080" allow="autoplay" allowFullScreen={true} title="YouTube video player"></iframe>
   </div>;
 }
