@@ -26,6 +26,28 @@
   background: #fff;
 }
 
+.overlay {
+  position: fixed;
+  z-index: 1;
+  height: 100vH;
+  width: 100vW;
+  background: #fff;
+  opacity: 0;
+  animation: opacity 1s;
+}
+
+@keyframes opacity {
+  0% {
+      opacity: 1;
+  }
+  80% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
 .header {
   display: flex;
   flex-direction: column;
