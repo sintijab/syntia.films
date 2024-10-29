@@ -1,0 +1,50 @@
+.main {
+  display: flex;
+}
+
+.preview {
+  width: 100%;
+}
+
+.preview img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.page {
+  display: flex;
+  justify-items: center;
+  min-height: 100svh;
+  padding: 1rem;
+  gap: 2rem;
+  font-family: var(--font-geist-sans);
+  flex-wrap: wrap;
+}
+
+.film_title {
+  font-family: RoleModel;
+  font-size: 18pt;
+  display: inline-flex;
+  padding: 0 .5rem 0 0;
+}
+
+@media (min-width: 1200px) {
+  .page {
+    gap: 64px;
+  }
+
+  .film_title {
+    font-size: 22pt;
+    padding: unset;
+    display: block;
+  }
+
+  .preview {
+    width: 30%;
+  }
+}
+
+
+small.film_title {
+  font-size: 12pt;
+}

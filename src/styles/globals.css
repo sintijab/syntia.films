@@ -1,3 +1,38 @@
+@font-face {
+  font-family: 'Mornlight';
+  src: url('/fonts/Mornlight.ttf');
+  font-style: large;
+}
+
+@font-face {
+  font-family: 'Margaret';
+  src: url('/fonts/Margaret.ttf');
+  font-style: large;
+}
+
+@font-face {
+  font-family: 'Aerotis';
+  src: url('/fonts/Aerotis.otf');
+}
+
+@font-face {
+  font-family: 'RoleModel';
+  src: url('/fonts/RoleModel.otf');
+  font-style: large;
+}
+
+@font-face {
+  font-family: 'Tafelschrift';
+  src: url('/fonts/Tafelschrift.ttf');
+  font-style: large;
+}
+
+@font-face {
+  font-family: 'Victorian';
+  src: url('/fonts/Victoryan Antecia.otf');
+  font-style: large;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -5,8 +40,9 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* --background: #0a0a0a; */
+    --background: #ffffff;
+    --foreground: #ffffff;
   }
 }
 
@@ -17,11 +53,17 @@ body {
 }
 
 body {
-  color: var(--foreground);
+  /* color: var(--foreground); */
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: #ffffff;
+  color: #484847;
+  padding-bottom: 5rem;
 }
 
 * {
@@ -39,4 +81,28 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+h2 {
+  font-family: 'Victorian';
+}
+
+p {
+  font-family: 'RoleModel';
+  font-weight: 400;
+  font-size: 16pt;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  line-height: 2;
 }

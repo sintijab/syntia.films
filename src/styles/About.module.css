@@ -1,0 +1,122 @@
+.main {
+  display: flex;
+}
+
+.preview {
+  width: 30%;
+  height: 300px;
+}
+
+.preview img {
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.page {
+  display: flex;
+  padding: 1rem;
+  gap: unset;
+  font-family: var(--font-geist-sans);
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 1200px) {
+  .page {
+    padding: 1rem 8rem;
+    gap: 64px;
+  }
+
+  .quote {
+    font-size: 26pt;
+    margin: 1rem .5rem;
+  }
+
+  .quote__small {
+    font-size: 24pt;
+  }
+}
+
+.quote {
+  padding: 0.5em 10px;
+  font-size: 21pt;
+  margin: .5rem 0 0 .5rem;
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+.quote__small {
+  font-size: 18pt;
+}
+
+.quote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 3em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+.paragraph {
+  font-size: 16pt;
+}
+
+.description {
+  width: 100%;
+}
+
+.description_narrow {
+  width: 100%;
+}
+
+.description_narrow p {
+  padding: 0;
+}
+
+@media (min-width: 1200px) {
+  .description {
+    width: 50%;
+  }
+
+  .description_narrow {
+    width: 40%;
+  }
+
+  .description_narrow p {
+    padding: .5rem 0;
+  }
+
+}
+
+.img {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (max-width: 1200px) {
+  .img {
+    height: auto;
+  }
+}
+
+
+.h2 {
+  font-weight: 600;
+  font-size: 32pt;
+  letter-spacing: .1em;
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+  .h2 {
+    font-size: 42pt;
+    text-align: left;
+  }
+}
+
+
+.line_break {
+  display: block;
+  padding-top: .5rem;
+}
