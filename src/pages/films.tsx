@@ -11,6 +11,31 @@ export default function Films() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.page}>
+        <a href="https://vimeo.com/1040964003" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/w3.avif" alt="w3 cenote freedive training" />
+          <div className={styles.film_title}>W3 Cenote Freediving</div>
+          <small className={styles.film_title}>documentary / 2min / Mexico</small>
+        </a>
+        <a href="https://vimeo.com/1040963344" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/elpit.jpg" alt="el pit film" />
+          <div className={styles.film_title}>El Pit</div>
+          <small className={styles.film_title}>documentary / 3min / Mexico</small>
+        </a>
+        <a href="https://vimeo.com/1040963700" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/angelita.jpg" alt="cenote angelita film" />
+          <div className={styles.film_title}>Cenoté Angelita</div>
+          <small className={styles.film_title}>documentary / 3min / Mexico</small>
+        </a>
+        <a href="https://vimeo.com/1040948895" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/chikin_ha_2.avif" alt="chikin ha film" />
+          <div className={styles.film_title}>Chikin Ha</div>
+          <small className={styles.film_title}>documentary / 3min / Mexico</small>
+        </a>
+        <a href="https://vimeo.com/1040948244" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/chikin_ha_1.avif" alt="chikin ha film" />
+          <div className={styles.film_title}>Chikin Ha</div>
+          <small className={styles.film_title}>documentary / 3min / Mexico</small>
+        </a>
         <a href="https://vimeo.com/1021601497" target="_blank" rel="noopener noreferrer" className={styles.preview}>
           <img src="/gruess_gott.avif" alt="gruess gott film trailer" />
           <div className={styles.film_title}>Grüß Gott</div>
