@@ -11,6 +11,16 @@ export default function Films() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.page}>
+      <a href="https://youtu.be/fZY8J8Y6KMM?feature=shared" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/chromotherapy.avif" alt="chromotherapy and sound healing" />
+          <div className={styles.film_title}>Chromotherapy & Sound Healing</div>
+          <small className={styles.film_title}>guided meditation / 90min / Berlin</small>
+        </a>
+        <a href="https://vimeo.com/1041469313" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/el_pit.avif" alt="w3 cenote freedive training" />
+          <div className={styles.film_title}>El Pit</div>
+          <small className={styles.film_title}>documentary / 4min / Mexico</small>
+        </a>
         <a href="https://vimeo.com/1040964003" target="_blank" rel="noopener noreferrer" className={styles.preview}>
           <img src="/w3.avif" alt="w3 cenote freedive training" />
           <div className={styles.film_title}>W3 Cenote Freediving</div>
