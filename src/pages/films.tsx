@@ -12,7 +12,7 @@ export default function Films() {
       </Head>
       <main className={styles.page}>
         <a href="https://vimeo.com/1091714212" target="_blank" rel="noopener noreferrer" className={styles.preview}>
-          <img src="/chromotherapy.avif" alt="chromotherapy and sound healing" />
+          <img src="/aEaZxLh8WN-LV4qM_Sequence01.00_00_23_28.Still009.avif" alt="chromotherapy and sound healing" />
           <div className={styles.film_title}>World Oceans Day 2025</div>
           <small className={styles.film_title}>freediving film /2min / Italy</small>
         </a>
