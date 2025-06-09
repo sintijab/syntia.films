@@ -11,7 +11,12 @@ export default function Films() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.page}>
-      <a href="https://youtu.be/fZY8J8Y6KMM?feature=shared" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+        <a href="https://vimeo.com/1091714212" target="_blank" rel="noopener noreferrer" className={styles.preview}>
+          <img src="/chromotherapy.avif" alt="chromotherapy and sound healing" />
+          <div className={styles.film_title}>World Oceans Day 2025</div>
+          <small className={styles.film_title}>freediving film /2min / Italy</small>
+        </a>
+        <a href="https://youtu.be/fZY8J8Y6KMM?feature=shared" target="_blank" rel="noopener noreferrer" className={styles.preview}>
           <img src="/chromotherapy.avif" alt="chromotherapy and sound healing" />
           <div className={styles.film_title}>Chromotherapy & Sound Healing</div>
           <small className={styles.film_title}>guided meditation / 90min / Berlin</small>
